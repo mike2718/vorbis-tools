@@ -98,7 +98,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\..\..\libogg\lib;..\..\..\..\vorbis\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ogg.lib;vorbis.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ogg.lib;vorbis.lib;vorbisfile.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

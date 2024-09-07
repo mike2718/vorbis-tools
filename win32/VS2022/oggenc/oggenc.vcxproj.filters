@@ -18,9 +18,6 @@
     <ClCompile Include="..\..\..\oggenc\audio.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\oggenc\easyflac.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\oggenc\encode.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -45,12 +42,15 @@
     <ClCompile Include="..\..\..\share\utf8.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\oggenc\easyflac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\oggenc\flac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\oggenc\audio.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\oggenc\easyflac.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\oggenc\encode.h">
@@ -69,6 +69,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\include\utf8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\i18n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\oggenc\easyflac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\oggenc\flac.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
