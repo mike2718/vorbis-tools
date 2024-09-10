@@ -112,7 +112,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\..\..\FLAC\lib;..\..\..\..\libogg\lib;..\..\..\..\vorbis\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ogg.lib;vorbis.lib;vorbisenc.lib;FLAC.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ogg.lib;vorbis.lib;vorbisenc.lib;FLAC.lib;setargv.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>
